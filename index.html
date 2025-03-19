@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384- JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384- DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384- 9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384- B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanLuxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sectionMainWebsite">
+        <div class="navbar flex">
+            <img src="https://img.freepik.com/free-vector/illustration-shopping-online_53876-5906.jpg?t=st=1739682202~exp=1739685802~hmac=f3a6a83db5ef44fcd6def1ff4dfaa80da7f2d512ac75c653fe35b4ac5eebb362&w=1380" alt="" class="logo">
+            <h1 class="main-text">Urban_Luxe</h1>
+            <input type="text" placeholder="products available...." class="main-input">
+        </div>
+        <h1 class="main-text">Categories</h1>
+        <div class="categories">
+            <div class="menfashion">
+                <img src="https://img.freepik.com/free-photo/confident-young-man-walking-european-city-street_158595-4692.jpg?t=st=1739684544~exp=1739688144~hmac=c6dca7c8d7a9de8d729f55b8768b0bf278260061d70e42ee9ec253ecd0a7b33c&w=900" alt="" class="categories-image" onclick="display('sectionMen')">
+                <h3 class="men">MEN</h3>
+            </div>
+            <div class="menfashion">
+                <img src="https://img.freepik.com/free-photo/girl-park_1157-7636.jpg?t=st=1739685091~exp=1739688691~hmac=13c850f1ed5802210e58ad08823d22fb609d91cb44ccc6df2af08a8b07d5e39e&w=900" alt="" class="categories-image" onclick="display('sectionWomen')">
+                <h3 class="men">WOMEN</h3>
+            </div>
+            <div class="menfashion">
+                <img src="https://img.freepik.com/free-photo/small-boy-with-car-sitting-bed_8353-382.jpg?t=st=1739685173~exp=1739688773~hmac=9c510e68c4952328fa05abc5acca4ade52d100e875cd99a521e83bb683e75443&w=900" alt="" class="categories-image" onclick="display('sectionkids')">
+                <h3 class="men">KIDS</h3>
+            </div>
+            <div class="menfashion">
+                <img src="https://img.freepik.com/free-vector/cardboard-box-full-toys-isolated_1308-38078.jpg?t=st=1739685238~exp=1739688838~hmac=0edeab15a7757f7ff409dc0192a67d125ddc1326066f5ea1887d5c8cfbcc06be&w=1380" alt="" class="categories-image" onclick="">
+                <h3 class="men">TOYS</h3>
+            </div>
+        </div>
+        <div class = "d-flex">
+            <div class="cardcontainer">
+                <h3 class="cardheading">Appliances for your home | Up to 55% off</h3>
+                <div class="d-flex flex-row fustify-content-center">
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg" alt="" class="ac-image">
+                        <p class="para">Air Conditioner</p>
+                    </div>
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg" alt="" class="ac-image">
+                        <p class="para">Refrigerators</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row fustify-content-center">
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg" alt="" class="ac-image">
+                        <p class="para">Microwaves</p>
+                    </div>
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg" alt="" class="ac-image">
+                        <p class="para">Washing Machine</p>
+                    </div>
+                </div>
+                <a href="">see more</a>
+            </div>
+            <div class="cardcontainer">
+                <h3 class="cardheading">Starting ₹149 | Headphones</h3>
+                <div class="d-flex flex-row fustify-content-center">
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt._SY232_CB553870684_.jpg" alt="" class="ac-image">
+                        <p class="para">Starting  @249 | boAt</p>
+                    </div>
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult._SY232_CB553870684_.jpg" alt="" class="ac-image">
+                        <p class="para">Starting  @349 | boult</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row fustify-content-center">
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise._SY232_CB553870684_.jpg" alt="" class="ac-image">
+                        <p class="para">Starting  @649 | Noise</p>
+                    </div>
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_1._SY232_CB570220221_.jpg" alt="" class="ac-image">
+                        <p class="para">Starting  @149 | Zebronics</p>
+                    </div>
+                </div>
+                <a href="">Explore more</a>
+            </div>
+            <div class="cardcontainer">
+                <h3 class="cardheading">Automotive essentials | Up to 60% off</h3>
+                <div class="d-flex flex-row fustify-content-center">
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare2x._SY232_CB410830552_.jpg" alt="" class="ac-image">
+                        <p class="para">Cleaning accessories</p>
+                    </div>
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare2x._SY232_CB410830552_.jpg" alt="" class="ac-image">
+                        <p class="para">Tyre & rim care</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row fustify-content-center">
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_372x232._SY232_CB405083904_.jpg" alt="" class="ac-image">
+                        <p class="para">Helmets</p>
+                    </div>
+                    <div class="d-flex flex-column justify-contet-center">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum2x._SY232_CB410830555_.jpg" alt="" class="ac-image">
+                        <p class="para">Vacume cleaner</p>
+                    </div>
+                </div>
+                <a href="">see more</a>
+            </div>
+        </div>
+        <div class="sectionabtus">
+            <div class="d-flex">
+                <ul>
+                    <b>Get to Know Us</b>
+                    <li>about UrbanLuxe</li>
+                    <li>Press Release</li>
+                    <li>UrbanLuxe science</li>
+                </ul>
+                <ul>
+                    <b>Contact With Us</b>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+                <ul>
+                    <b>Make Money with Us</b>
+                    <li>Sell on UrbanLuxe</li>
+                    <li>Sell under UrbanLuxe Accelerator</li>
+                    <li>Supply to UrbanLuxe</li>
+                </ul>
+                <ul>
+                    <b>Let Us Help You</b>
+                    <li>Your Account</li>
+                    <li>Recent Center</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>  
+    </div>  
+    <div id="sectionMen">
+        <div style="display: flex;">
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price" id="card1">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn" onclick="addToCart('card1')">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/71IXThTV2QL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">GRECIILOOKS</h3>
+                    <a href="#" class="product-title">Shirt for Man | Men's Regular Fit Casual Shirt | Shirt | Shirt for Men |...</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price" id = "card2">$385.78</p>
+                    </div>
+                    <button class="add-to-cart-btn" onclick="addToCart('card2')">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/710D-t-2LrL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Fashion Frill</h3>
+                    <a href="#" class="product-title">Stylish Bracelet For Men Leather Bracelet Magnetic Clasp</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price" id = "card3">$244.67</p>
+                    </div>
+                    <button class="add-to-cart-btn" onclick="addToCart('card3')">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/81GswnuIBpL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">KETCH</h3>
+                    <a href="#" class="product-title">Men Slim Fit Printed Full Sleeve Shirt</a>
+                    <p class="rating">Rating: 3.5 out of <b>27</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price" id="card4">$199.99</p>
+                    </div>
+                    <button class="add-to-cart-btn" onclick="addToCart('card4')">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61aDArxxBlL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Lymio</h3>
+                    <a href="#" class="product-title">Men Cargo || Men Cargo Pants || Men Cargo Pants Cotton || Cargos</a>
+                    <p class="rating">Rating: 4.0 out of <b>2,209</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price" id="card5">$699.00</p>
+                    </div>
+                    <button class="add-to-cart-btn" onclick="addToCart('card5')">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/81jv56HsVOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">URBAN FOREST</h3>
+                    <a href="#" class="product-title">Leather Belt for Men | with comfort</a>
+                    <p class="rating">Rating: 4.0 out of <b>9,354</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price" id="card6">$599.00</p>
+                    </div>
+                    <button class="add-to-cart-btn" onclick="addToCart('card6')">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <button onclick="display('sectionMainWebsite')" class="btn-primary">back</button>
+        <div class="mencartitem">
+            <div class="d-flex flex-row cart" id="cartformen">
+                
+            </div>
+            <div class="buyNow-background">
+                <button class="buyNow" id="buyCart" onclick="getcart()">Buy Now</button>
+            </div>
+            <div>
+                <p id="total">$ 0.00</p>
+            </div>
+        </div>
+    </div>
+    <div id="sectionWomen">
+        <div style="display: flex;">
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <button onclick="display('sectionMainWebsite')" class="btn-primary">back</button>
+    </div>
+    <div id="sectionkids">
+        <div style="display: flex;">
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card-container">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61SmsCyfZOL._AC_UL640_FMwebp_QL65_.jpg" alt="Mens Rayon Casual Shirt" class="product-image">
+                    <h3 class="brand-heading">Leriya Fashion</h3>
+                    <a href="#" class="product-title">Mens Rayon Man Casual Shirt Regular Fit Western</a>
+                    <p class="rating">Rating: 4.5 out of <b>2,581</b> reviews</p>
+                    <div class="price-container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfnZPOLlcGV0LvOL7prg5j0csU40RpYW5PQ&s" alt="Logo" class="brand-logo">
+                        <p class="price">$384.67</p>
+                    </div>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <button onclick="display('sectionMainWebsite')" class="btn-primary">back</button>
+    </div>
+    <script type="text/javascript" src="first.js"></script>
+</body>
+</html>
+
